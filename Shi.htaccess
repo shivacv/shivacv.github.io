@@ -1,0 +1,14 @@
+<Files .htaccess>
+order deny,allow
+deny from all
+</Files>
+
+RewriteEngine On
+RewriteBase /
+
+# index.php to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\.html\ HTTP/
+RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
+
+# error docs
+ErrorDocument 404 http://www.shivacv.com/error404.html
