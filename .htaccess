@@ -3,4 +3,4 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^shivacv.com[nc]
 RewriteRule ^(.*)$ http://www.shivacv.com/$1 [r=301,nc]
-Redirect 301 /shivacv.com http://shivacv.com/n
+Redirect 301 /shivacv.com http://shivacv.com/404.com
