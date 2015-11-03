@@ -84,7 +84,7 @@ aside {
     padding: 50px 0;
 }
 #name{font-size: 15px;margin-bottom:10px;text-transform:none;}
-#about p{line-height:30px;padding: 0% 10%;}
+#about p{line-height:30px;padding: 0% 8%;}
 .no-padding {
     padding: 0;
 }
@@ -564,3 +564,4 @@ background-color:#f7f7f7;
 #edu {background-color:#f7f7f7;color:#000;}
 #portfolio .container-fluid{margin-top:35px;}
 #edu .service-box h3{font-weight:bold;color: rgba(0,0,0,.7);}
+#ache h2{text-align:center;margin-top:30px;}
